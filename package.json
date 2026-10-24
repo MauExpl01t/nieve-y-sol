@@ -1,0 +1,32 @@
+{
+  "name": "nieve-y-sol",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Sistema de reserva de horas Centro Termal Nieve y Sol. Sprint 2: CRUD de Clientes, Reservas y Recursos.",
+  "type": "module",
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "build": "vite build",
+    "start": "node --env-file=.env src/server.js",
+    "dev": "node --env-file=.env --watch src/server.js",
+    "dev:front": "vite",
+    "db:init": "node --env-file=.env scripts/db-init.js",
+    "db:seed": "node --env-file=.env scripts/db-init.js --seed",
+    "db:reiniciar": "node --env-file=.env scripts/db-init.js --reiniciar --seed",
+    "usuario:crear": "node --env-file=.env scripts/crear-usuario.js",
+    "test": "node --test",
+    "verificar": "node scripts/verificar.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "pg": "^8.13.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "vite": "^7.0.0"
+  }
+}
