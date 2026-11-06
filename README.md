@@ -1,5 +1,8 @@
 # Nieve y Sol: Sistema de reservas
 
+![Tests](https://github.com/MauExpl01t/nieve-y-sol/actions/workflows/tests.yml/badge.svg)
+![Node](https://img.shields.io/badge/node-%3E%3D20.19-339933.svg)
+
 Sistema web para reservar horas en un centro termal: administra **clientes**, **recursos** (salas, sauna, piscina, terapeutas, instructores) y **reservas**, con control de disponibilidad, agenda por día e inicio de sesión con roles.
 
 > Proyecto en equipo desarrollado en INACAP. Estado: **Sprint 2** (en desarrollo).
