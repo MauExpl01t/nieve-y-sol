@@ -7,6 +7,10 @@ Sistema web para reservar horas en un centro termal: administra **clientes**, **
 
 > Proyecto en equipo desarrollado en INACAP. Estado: **Sprint 2** (en desarrollo).
 
+## Demo
+
+![Pantalla de inicio de sesión de Nieve y Sol](./assets/demo.jpg)
+
 ## Tecnologías
 
 | Capa | Tecnología |
